@@ -1,0 +1,201 @@
+digraph G {
+  // Overall graph attributes
+  graph [bgcolor="#F8F8F8", rankdir="LR"];
+  node [shape=ellipse, style=filled, color="#85A2B6", fontname="Arial", fontsize=10];
+  edge [color="#333333", fontsize=9];
+
+  // Overall node for Curating Data
+  CuratingData [label=<<b>Curating Data</b>>, shape=circle, color="#527CA3", style=filled, fillcolor="#85A2B6", fontname="Arial", fontsize=20];
+
+  // Subgraph for Displaying
+  subgraph Displaying {
+    label = "Displaying";
+    style = filled;
+    color = "#E1EDF6";
+    // Nodes related to displaying data
+    Displaying [label=<<b>Displaying</b>>, shape=ellipse, color="#527CA3", style=filled, fillcolor="#85A2B6"];
+    visualize [label="Visualize", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"];
+    accessibility [label="Accessibility", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"];
+    exhibitions [label="Exhibitions", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"];
+    date06122023 [label="06.12.2023", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"];
+    knowledgeGraphs [label="Knowledge Graphs", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"];
+    assignment3 [label="Assignment 3", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"];
+    wilhelmKuhnert [label="Wilhelm Kuhnert", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"];
+    storyTelling [label="Storytelling", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"];
+    candy_visualization [label="Candy Visualization", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"];
+    fork_visualization [label="Fork Visualization", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"];
+    book_visualization [label="Book Visualization", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"];
+    card_visualization [label="Card Visualization ", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"];
+    lectureByKathleenMcdowell [label="Lecture by Kathleen McDowell", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"];
+    DataToInformation [label="Data to information", color="#527CA3", shape=box, style=filled, fillcolor="#A2C3DF"]
+    }
+
+  // Subgraph for Collecting
+  subgraph Collecting {
+  label = "Collecting";
+  style = filled;
+  color = "#F7D5A3";
+  // Nodes related to collecting data
+  Collecting [label = <<b>Collecting</b>>, color="#E18F5E", shape=ellipse, style=filled, fillcolor="#F7D5A3"];
+  ourProjects [label="Our Projects", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  playingCards [label="Playing Cards", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  numberSymbols [label="Number Symbols", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  colour [label="Colour", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  kind [label="Kind", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  books [label="Books", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  pages [label="Pages", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  title [label="Title", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  author [label="Author", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  forks [label="Forks", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  _weight [label="Weight", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];  
+  manufacturer [label="Manufacturer", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  measureTape [label="Measure Tape", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  length [label="Length", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  candy [label="Candy", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  protein [label="Protein", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  sugar [label="Sugar", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  ingredientList [label="Ingredient List", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  // Nodes related to data collection and digitization
+  datafy [label="Datafy", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  measurements [label="Measurements", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  quantification [label="Quantification", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  datafication [label="Datafication", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  captaVsData [label="Capta vs Data", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  article_datafication [label = "'Datafication'", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  mejias [label = "Ulises A. Mejias", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  couldry [label = "Nick Couldry", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"]
+  digitize [label= "Digitize", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  pictures [label= "Pictures", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  spreadsheet [label="Spreadsheet", color="#E18F5E", shape=box, style=filled, fillcolor="#FFC885"];
+  }
+
+  // Subgraph for Classifying
+  subgraph Classifying {
+  label = "Classifying";
+  style = filled;
+  color = "#C5D9B8";
+  Classifying [label=<<b>Classifying</b>>, color="#87A385", shape=ellipse, style=filled, fillcolor="#C5D9B8"];
+  taxonomies [label="Taxonomies", color="#87A385", shape=box, style=filled, fillcolor="#B9CCAE"];
+  topics [label="Topics", color="#87A385", shape=box, style=filled, fillcolor="#B9CCAE"];
+  organizing [label="Organizing", color="#87A385", shape=box, style=filled, fillcolor="#B9CCAE"];
+  categorizing [label="Categorizing", color="#87A385", shape=box, style=filled, fillcolor="#B9CCAE"];
+  labelling [label="Labelling", color="#87A385", shape=box, style=filled, fillcolor="#B9CCAE"];
+  columns [label="Columns", color="#87A385", shape=box, style=filled, fillcolor="#B9CCAE"];
+  rows [label="Rows", color="#87A385", shape=box, style=filled, fillcolor="#B9CCAE"];
+  lackOfEthicProblems [label="Lack of Ethic Problems", color="#87A385", shape=box, style=filled, fillcolor="#B9CCAE"];
+  nonOffensiveObservations [label="Non-Offensive Observations", color="#87A385", shape=box, style=filled, fillcolor="#B9CCAE"];
+  data_structure [label="Datastructuring - Organizing(...)", color="#87A385", shape=box, style=filled, fillcolor="#B9CCAE"]
+  flyverbom_murray [label="Flyverbom & Murray", color="#87A385", shape=box, style=filled, fillcolor="#B9CCAE"]
+  }
+  
+  // Subgraph for Archiving
+  subgraph Archiving {
+  // Nodes related to archiving data
+  label = "Archiving";
+  style = filled;
+  color = "#F5E6CC";
+  Archiving [label=<<b>Archiving</b>>, color="#E1CC94", shape=ellipse, style=filled, fillcolor="#F5E6CC"];
+  storage [label="Storage", color="#E1CC94", shape=box, style=filled, fillcolor="#F3E1B5"];
+  backUp [label="Back Up", color="#E1CC94", shape=box, style=filled, fillcolor="#F3E1B5"];
+  hardDrive [label="Hard Drive", color="#E1CC94", shape=box, style=filled, fillcolor="#F3E1B5"];
+  onlineCloudBasedStorage [label="Online Cloud-Based Storage", color="#E1CC94", shape=box, style=filled, fillcolor="#F3E1B5"];
+  updatingCollection [label="Updating Collection", color="#E1CC94", shape=box, style=filled, fillcolor="#F3E1B5"];
+  dynamicProcess [label="Dynamic Process", color="#E1CC94", shape=box, style=filled, fillcolor="#F3E1B5"];
+  managing [label="Managing", color="#E1CC94", shape=box, style=filled, fillcolor="#F3E1B5"];
+  metadata [label="Metadata", color="#E1CC94", shape=box, style=filled, fillcolor="#F3E1B5"];
+  dataAboutData [label="Data About Data", color="#E1CC94", shape=box, style=filled, fillcolor="#F3E1B5"];
+  acker [label="Acker", color="#E1CC94", shape=box, style=filled, fillcolor="#F3E1B5"];
+
+  }
+  // Connections under the category 'Displaying'
+  Displaying -> accessibility;
+  Displaying -> visualize;
+  visualize -> DataToInformation;
+  Displaying -> exhibitions;
+  exhibitions -> date06122023;
+  Displaying -> knowledgeGraphs;
+  knowledgeGraphs -> assignment3;
+  assignment3 -> wilhelmKuhnert;
+  Displaying -> storyTelling;
+  storyTelling -> candy_visualization;
+  storyTelling -> fork_visualization;
+  storyTelling -> book_visualization;
+  storyTelling -> card_visualization;
+  storyTelling -> lectureByKathleenMcdowell [label = "Inspired by"];
+
+  // Connections under the category 'Collecting'
+  Collecting -> ourProjects;
+  ourProjects -> playingCards;
+  ourProjects -> books;
+  ourProjects -> forks;
+  ourProjects -> candy;
+  playingCards -> numberSymbols;
+  playingCards -> colour;
+  playingCards -> kind;
+  books -> pages;
+  books -> title;
+  books -> author;
+  forks -> _weight;
+  forks -> manufacturer;
+  forks -> measureTape;
+  measureTape -> length;
+  candy -> protein;
+  candy -> sugar;
+  candy -> ingredientList;
+  Collecting -> datafy;
+  datafy -> measurements;
+  measurements -> quantification;
+  datafy -> datafication;
+  datafication -> captaVsData;
+  captaVsData -> article_datafication
+  article_datafication -> mejias [label = "Authored by"]
+  article_datafication -> couldry [label = "Authored by"]
+  Collecting -> digitize;
+  digitize -> pictures;
+  digitize -> spreadsheet;
+
+  // Connections under the category 'Classifying'
+  Classifying -> taxonomies;
+  taxonomies -> books;
+  taxonomies -> candy;
+  taxonomies -> forks;
+  taxonomies -> playingCards;
+  books -> topics;
+  topics -> organizing;
+  Classifying -> categorizing;
+  categorizing -> labelling;
+  categorizing -> columns;
+  categorizing -> rows;
+  Classifying -> lackOfEthicProblems
+  lackOfEthicProblems -> nonOffensiveObservations;
+  Classifying -> data_structure;
+  data_structure -> flyverbom_murray;
+
+  // Connections under the category 'Archiving'
+  Archiving -> storage;
+  storage -> backUp;
+  backUp -> hardDrive;
+  backUp -> onlineCloudBasedStorage;
+  Archiving -> updatingCollection;
+  updatingCollection -> dynamicProcess;
+  Archiving -> managing;
+  Archiving -> metadata;
+  metadata -> dataAboutData;
+  metadata -> acker;
+  Archiving -> organizing
+  organizing -> storage
+
+  // Connections between the subgraphs
+  Displaying -> Collecting [lhead=cluster_collecting, ltail=cluster_displaying];
+  Displaying -> Classifying [lhead=cluster_classifying, ltail=cluster_displaying];
+  Collecting -> Archiving [lhead=cluster_archiving, ltail=cluster_collecting];  
+
+  // Connection from Curating Data to subgraphs
+  CuratingData -> Displaying;
+  CuratingData -> Collecting;
+  CuratingData -> Classifying;
+  CuratingData -> Archiving;
+
+}
+
+
